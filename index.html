@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bill Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Bill Total</h2>
+        <div class="billInput">
+            <span>$</span>
+            <input type="text" onkeyup="billCalculate()" id="billInput" placeholder="0.00">
+        </div>
+        <h2>Tip</h2>
+        <div class="tipInput">
+            <span>%</span>
+            <input type="text" onkeyup="billCalculate()" id="tipInput" placeholder="0">
+        </div>
+        
+        
+        <div class="bottom">
+            
+            <div class="no-people">
+                <h2>People</h2>
+                <div class="people">
+                    <div class="increment-btn"><button onclick="incrementPeople()">+</button></div>
+                    <div class="number" id="noOfPeople">1</div>
+                    <div class="decrement-btn"><button onclick="decrementPeople()">-</button></div>
+                </div>
+                
+            </div>
+            
+            <div class="total">
+                <h2>Total per Person</h2>
+                <div class="show-total" id="total">$ 0.00</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="owner">Developed by <a href="https://lawrence-kipyegon-langat.netflify.app/"><i>Lawrence</i></a><img src="https://lawrence-kipyegon-langat.netlify.app/static/media/me.3ed10ccdd7f724edf2bd.jpg" alt=""></div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body
+{
+    justify-content: center;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    
+    border-radius: 20px;
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+.owner{
+    margin-left: 20%;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.billInput{
+    width: 260px;
+    
+    border-radius:  20px;
+    margin-top: 20px;
+    background-color: black;
+    align-content: flex-end;
+    padding: 10px;
+}
+.tipInput{
+    width: 260px;
+    
+    border-radius:  20px;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px; 
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+.no-poeple{
+    display: flex;
+    flex-direction: column;
+}
+.people{
+    display: flex;
+    gap: 20px;
+    
+}
+.increment-btn{
+    border-radius: 50%;
+    background-color: blue;
+}
+.decrement-btn{
+   
+    background-color: blue;
+    border-radius: 50%;
+}
+.total{
+    margin-right: 0px;
+}
+input{
+    color: #fff;
+    background-color: black ;
+    border-style: none;
+}
+h2{
+    font-size: 18px;
+}
